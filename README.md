@@ -3,7 +3,10 @@
 
 # YaMDb
 
-![example workflow](https://github.com/oisaev/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![workflow](https://github.com/oisaev/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
+### Адрес:
+http://158.160.27.5/
 
 ### Описание
 Учебный проект Яндекс Практикум.
@@ -18,6 +21,13 @@ Python 3.9
 Django 3.2
 DRF
 JWT
+
+### Развертывание
+
+Проект автоматически развертывается на Yandex Cloud при помощи workflow, написанном для GitHub Actions при пуше в ветку Master. При развертывании используется:
+- Платформа контейнеризации Docker совместно с инструментом развертывания мультиконтейнерных приложений Docker Compose
+- Веб сервер Nginx
+- СУБД PostgreSQL
 
 ### Авторы YaMDb
 
