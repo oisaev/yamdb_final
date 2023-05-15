@@ -17,10 +17,10 @@ YaMDb собирает **отзывы** пользователей на **про
 https://github.com/AlexBatanov/api_yamdb
 
 ### Технологии
-Python 3.9
-Django 3.2
-DRF
-JWT
+- Python 3.9
+- Django 3.2
+- DRF
+- JWT
 
 ### Развертывание
 
